@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -16,12 +17,12 @@
         <div class="container">
             <div class="card">
                 <div class="content">
-                    <div class="imgBx"><img src="img/1.jpg" alt="Avatar1"></div>
+                    <div class="imgBx"><img src="img/Bruno.png" alt="Avatar1"></div>
                     <div class="contentBx">
-                        <h3>Someone Famous<br><span>Creative Designer</span></h3>
+                        <h3>Bruno Mendonça<br><span>Desenvolvedor RPA</span></h3>
                     </div>
                 </div>
-                
+
                 <ul class="sci">
                     <li style="--i:1">
                         <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -34,15 +35,15 @@
                     </li>
                 </ul>
             </div>
-            
+
             <div class="card">
                 <div class="content">
-                    <div class="imgBx"><img src="img/2.jpg" alt="Avatar1"></div>
+                    <div class="imgBx"><img src="https://avatars3.githubusercontent.com/u/64282146?s=460&u=9376c14fe78e42be74b1746a73fab96420e26d76&v=4" alt="Avatar1"></div>
                     <div class="contentBx">
-                        <h3>Someone Famous<br><span>Creative Designer</span></h3>
+                        <h3>Diego Henrique<br><span>Front-End</span></h3>
                     </div>
                 </div>
-                
+
                 <ul class="sci">
                     <li style="--i:1">
                         <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -55,15 +56,15 @@
                     </li>
                 </ul>
             </div>
-            
+
             <div class="card">
                 <div class="content">
-                    <div class="imgBx"><img src="img/3.jpg" alt="Avatar1"></div>
+                    <div class="imgBx"><img src="img/Kristen.jpg" alt="Avatar1"></div>
                     <div class="contentBx">
-                        <h3>Someone Famous<br><span>Creative Designer</span></h3>
+                        <h3>Kristen Alvard<br><span>Creative Design</span></h3>
                     </div>
                 </div>
-                
+
                 <ul class="sci">
                     <li style="--i:1">
                         <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -79,7 +80,15 @@
         </div>
     </section>
 
- 
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+            max: 25,
+            speed: 400,
+            glare: true,
+            "max-glare":0.3,
+        });
+    </script>
 </body>
 
 </html>
